@@ -1,0 +1,27 @@
+php_flag magic_quotes_gpc Off
+php_flag magic_quotes_runtime Off
+php_flag magic_quotes_sybase Off
+
+
+AddDefaultCharset UTF-8
+##################################
+RewriteEngine On
+
+###REDIRECT TO MAIN ##############
+RewriteCond %{HTTP_HOST} ^www.inpositiv.ru$ [NC]
+RewriteRule ^(.*)$ http://inpositiv.ru/$1 [R=301,L]
+##################################
+Options +FollowSymLinks
+IndexIgnore */*
+<IfModule mod_rewrite.c>
+#RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+#RewriteRule . index.php
+
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>

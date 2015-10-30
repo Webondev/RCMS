@@ -1,0 +1,61 @@
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color:green;
+}
+ul{
+	list-style-type:none;
+	margin-left:-20px;
+}
+li{
+	
+}
+.menu {
+	width:250px;
+	background: #E2E2E2;
+	float:left;
+	margin: 10px;
+	padding: 0 10px 0 10px;
+	border: 1px solid gray;
+}
+.content{
+	float:left;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid gray;
+	width:70%;
+}
+
+.navigation{
+	border-bottom: 1px solid gray;
+	
+}
+
+/**ошибки и сообщения****/
+
+.error_div{
+	color:red;
+	border: 1px solid red;
+}
+
+.info_div{
+	color:green;
+	border: 1px solid green;
+}
+
+/**просто скрыто и все***/
+.hidden{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
