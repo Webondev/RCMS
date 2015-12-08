@@ -1,4 +1,41 @@
-# RCMS
+# RCMS - Light weight and simple CMS
+For review, non commercial use
+
+Light weight and simple CMS with PHP without frameworks, using Smarty as template engine
+
+Requirements: PHP/MySQL/HTML5
+
+###Realized
+Admin area: post add/edit, categories add/edit, users add/edit
+
+User authorization
+
+Installer
+
+SEO optimization
+
+User statistic
+
+Sitemap.xml generation
+
+Rss
+
+Ajax file uploading
+
+###Used libraries:
+
+Database: rDBSimple
+
+Template: Smarty
+
+Captcha: kcaptcha
+
+Image edit: WideImage
+
+RSS: simpleRSS
+
+###
+
 Для ознакомления, non commercial.
 
 Легкая и простая CMS, написанная с нуля, с использованием Smarty шаблонизатора.
