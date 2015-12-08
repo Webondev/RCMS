@@ -34,7 +34,8 @@ Image edit: WideImage
 
 RSS: simpleRSS
 
-###
+
+#RCMS - легкая самописная CMS на PHP
 
 Для ознакомления, non commercial.
 
